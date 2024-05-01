@@ -8,8 +8,8 @@ const Header = () => (
   <div className='app__header app__wrapper section__padding' id='home'>
     <div className='app__wrapper_info'>
       <SubHeading title="Welcome to Redlight" />
-      <h1 className='app__header-h1'>Craft Brewing, Our Way</h1>
-      <p className='p__opensans' style={{ margin: '2rem 0'}}>My name's Geoff and I"m makin a website. It's goin okay.</p>
+      <h1 className='app__header-h1'>Passion for brewing and people</h1>
+      <p className='p__opensans' style={{ margin: '2rem 0'}}>Serving the community since 2005</p>
       <button type='button' className='custom__button'>Explore Menu</button>
     </div>
     

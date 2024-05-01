@@ -2,6 +2,13 @@
   padding: 4rem 6rem;
 }
 
+.flex__center-aboutus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
 .flex__center {
   display: flex;
   justify-content: center;
@@ -31,6 +38,18 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+}
+
+.app__wrapper_info-2 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  /* border: 2px solid var(--color-golden);
+  padding: 0.5rem;
+  background: rgba(211, 211, 211, 0.25); */
 }
 
 .app__wrapper_img {

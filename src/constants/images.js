@@ -22,6 +22,11 @@ import quote from '../assets/quote.png';
 import gericht from '../assets/RL-logo.jpg';
 import mural from '../assets/RL-mural.jpg';
 import RL from '../assets/RL.png';
+import bottle from '../assets/bottle.png';
+import glasses from '../assets/RL-glasses2.JPG';
+import wall from '../assets/RL-wall.jpg';
+import bartop from '../assets/RL-bartop.JPG';
+import brewpub from '../assets/RL-brewpub.JPG';
 
 export default {
   bg,
@@ -48,4 +53,9 @@ export default {
   gericht,
   mural,
   RL,
+  bottle,
+  glasses,
+  wall,
+  bartop,
+  brewpub,
 };

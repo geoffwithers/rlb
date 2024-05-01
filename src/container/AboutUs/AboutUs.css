@@ -1,16 +1,21 @@
 .app__aboutus {
     position: relative;
+    /* height: 910px; */
 }
 
 .app__aboutus-overlay {
     position: absolute;
     inset: 0;
+    
+    
 }
 
 .app__aboutus-overlay img {
     width: 391px;
     height: 415px;
     z-index: 0;
+    
+    
 }
 
 .app__aboutus-content {
@@ -27,12 +32,19 @@
     text-align: right;
 }
 
-.app__aboutus-content_knife {
-    margin: 2rem 4rem;
+.app__aboutus-content_glasses {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* margin-left: 2rem; */
 }
 
-.app__aboutus-content_knife img {
-    height: 910px;
+.app__aboutus-content_glasses img {
+    border: 10px solid var(--color-golden);
+    width: 80%;
 }
 
 .app__aboutus-content_history {
@@ -48,4 +60,52 @@
 .app__aboutus-content_about p {
     margin: 2rem 0;
     color: var(--color-grey)
+}
+
+@media screen and (max-width: 2000px) {
+   
+    .app__aboutus-content_glasses {
+        margin: 2rem;
+    }
+
+    .app__aboutus-content_glasses img {
+        width: 100%;
+    }
+
+    .app_aboutus-content_history p,
+    .app_aboutus-content_about p {
+        margin: 4rem;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__aboutus-content {
+        flex-direction: column;
+    }
+    .app__aboutus-content_glasses {
+        margin: 3rem;
+    }
+    .app__aboutus-content_glasses img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .app__aboutus-content {
+        flex-direction: column;
+    }
+    .app__aboutus-content_glasses {
+        margin: 5rem 2rem;
+    }
+    .app__aboutus-content_glasses img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__aboutus-overlay img {
+        width: 80%;
+        height: 320px;
+    }
 }
