@@ -11,17 +11,18 @@ const Navbar = () => {
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
-        <h1 className='app__navbar-h1'>Redlight Redlight Brewing</h1>
+        <h1 className='app__navbar-h1'>Redlight Redlight Brewpub</h1>
       </div>
       <ul className='app__navbar-links'>
         <li className='p__opensans'><a href="#home">Home</a></li>
         <li className='p__opensans'><a href="#about">About</a></li>
-        <li className='p__opensans'><a href="#menu">Specials</a></li>
+        <li className='p__opensans'><a href="#kitchen">Kitchen</a></li>
+        <li className='p__opensans'><a href="#specials">Specials</a></li>
         <li className='p__opensans'><a href="#events">Events</a></li>
         <li className='p__opensans'><a href="#contact">Contact</a></li>
       </ul>
       <div className='app__navbar-hours'>
-        <a href="#hours" className='p__opensans'>Hours / Location</a>
+        <a href="#contact" className='p__opensans'>Hours / Location</a>
         <div />
         <a href="https://order.toasttab.com/menu-and-pay/redlight-redlight-2810-corrine-dr/welcome" className='p__opensans'>Menu</a>
       </div>
@@ -35,6 +36,7 @@ const Navbar = () => {
             <li className='p__opensans'><a href="#home">Home</a></li>
             <li className='p__opensans'><a href="#about">About</a></li>
             <li className='p__opensans'><a href="#menu">Specials</a></li>
+            <li className='p__opensans'><a href="#kitchen">Kitchen</a></li>
             <li className='p__opensans'><a href="#events">Events</a></li>
             <li className='p__opensans'><a href="#contact">Contact</a></li>
           </ul>
